@@ -170,7 +170,7 @@ namespace CodeChallenge.Controllers
                 var FileName = CreateImageDTO.Name + Guid.NewGuid().ToString() + imageResp.response;
                 var UserFile = new UsersFiles
                 {
-                    Name = CreateImageDTO + imageResp.response,
+                    Name = CreateImageDTO.Name + imageResp.response,
                     File = FileName,
                     ApplicationUser = user,
                     FileType = imageResp.response,
