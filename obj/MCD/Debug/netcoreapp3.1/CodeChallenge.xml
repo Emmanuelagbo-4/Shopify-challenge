@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CodeChallenge</name>
+    </assembly>
+    <members>
+        <member name="M:CodeChallenge.Controllers.UsersController.Login(CodeChallenge.Models.Request.AuthenticationRequestModel)">
+            <summary>
+            User authentication with email and password
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CodeChallenge.Controllers.UsersController.RegisterCustomer(CodeChallenge.Models.Request.UserRegistrationRequestModel)">
+            <summary>
+            Register Customer
+            </summary>
+        </member>
+        <member name="M:CodeChallenge.Controllers.UsersController.CreateAdmin(CodeChallenge.Models.Request.UserRegistrationRequestModel)">
+            <summary>
+            Register Admin
+            </summary>
+        </member>
+        <member name="M:CodeChallenge.Controllers.UsersController.CreateImage(CodeChallenge.Models.Request.CreateImageRequestModel)">
+            <summary>
+            Add Image
+            </summary>
+        </member>
+    </members>
+</doc>
